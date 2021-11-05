@@ -1,0 +1,140 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  cursor: default;
+  font-family: "Montserrat", sans-serif;
+}
+#header {
+  width: 100%;
+  background-color: rgb(65, 58, 49);
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0px;
+}
+#leftside {
+  padding: 1.5%;
+}
+.headertitle {
+  font-weight: 800;
+}
+#title {
+  color: rgb(60, 184, 221);
+}
+
+/*headerend*/
+#midcontainer {
+  width: 100%;
+  background-color: white;
+  height: 100vh;
+}
+.userinput {
+  padding: 1.5%;
+}
+.demo {
+  padding: 1.5%;
+}
+.userinput form textarea {
+  margin-top: 15px;
+  width: 90%;
+  height: 300px;
+  cursor: text;
+  resize: none;
+  display: block;
+  border-radius: 10px;
+  padding: 10px;
+}
+.userinput h3 {
+  font-weight: 700;
+}
+.userinput p {
+  font-weight: 400;
+  margin-top: 10px;
+}
+.userinput #enkrip {
+  margin-top: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(64, 146, 89);
+  color: white;
+  cursor: pointer;
+}
+.userinput #dekrip {
+  margin-top: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(196, 108, 49);
+  color: white;
+  cursor: pointer;
+}
+.userinput #cypher {
+  margin-top: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(91, 92, 89);
+  color: white;
+  cursor: pointer;
+}
+.userinput #reset {
+  margin-top: 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(158, 59, 41);
+  color: white;
+  cursor: pointer;
+}
+
+.userinput button {
+  transition: 0.4s ease-in-out;
+}
+.userinput button:hover {
+  opacity: 0.9;
+  transform: translateY(2px);
+}
+.demo #output {
+  width: 90%;
+  margin-top: 10px;
+  border: 1px solid rgb(65, 58, 49);
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(200, 204, 207);
+  cursor: text;
+}
+#watermark {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 45px;
+  opacity: 0.4;
+  font-style: italic;
+}
+/*endmidcontainer*/
+#pagefooter {
+  width: 100%;
+  background-color: rgb(65, 58, 49);
+  color: white;
+}
+
+#pagefooter > h4 {
+  padding: 1.2%;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  transition: 0.5s;
+}
+#pagefooter > h4:hover {
+  opacity: 0.7;
+}
